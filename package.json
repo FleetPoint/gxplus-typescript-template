@@ -1,0 +1,23 @@
+{
+	"name": "@gxplus/typescript-template",
+	"version": "0.0.0-development",
+	"description": "Plugin Template for GX+ written for Roblox typescript developers",
+	"main": "dist/plugin.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w"
+	},
+	"types": "dist/plugin.d.ts",
+	"files": ["dist/plugin.lua", "dist/plugin.d.ts"],
+	"publishConfig": {
+		"access": "restricted"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.1",
+		"@gxplus/types": "workspace:0.0.0-development.2",
+		"@rbxts/compiler-types": "2.3.0-types.0",
+		"@rbxts/types": "^1.0.763",
+		"roblox-ts": "^2.3.0",
+		"typescript": "^5.3.3"
+	}
+}

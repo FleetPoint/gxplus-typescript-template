@@ -1,0 +1,6 @@
+# Node Modules
+node_modules/
+
+# Only commit the .lua file
+dist/*
+!dist/plugin.lua

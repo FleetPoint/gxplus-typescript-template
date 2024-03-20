@@ -1,0 +1,29 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"ignore": [
+			"package.json",
+			".vscode/*.json",
+			"tsconfig.json",
+			"tsconfig.base.json",
+			"network/src/client.d.ts",
+			"network/src/server.d.ts"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"correctness": {
+				"noInvalidUseBeforeDeclaration": "off"
+			}
+		}
+	}
+}
