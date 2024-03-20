@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.6.1",
-		"@gxplus/types": "workspace:0.0.0-development.2",
+		"@gxplus/types": "^0.0.0-development.2",
 		"@rbxts/compiler-types": "2.3.0-types.0",
 		"@rbxts/types": "^1.0.763",
 		"roblox-ts": "^2.3.0",
